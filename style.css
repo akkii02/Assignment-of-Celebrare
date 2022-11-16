@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  position: absolute;
+  left: 45%;
+  top: 5%;
+}
+.result{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+#file{
+    color: green;
+}
+#hidden{
+    display: none;
+    position: relative;
+    height: 80%;
+}
+#canvas{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+.image-container{
+margin-left: 30%;
+margin-top: 5%; 
+height: 10%;
+width: 40%;
+text-align: center;
+}
+.image-container img{
+    height: 30px;
+    padding: 1%;
+}
